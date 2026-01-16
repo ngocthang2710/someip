@@ -1,0 +1,13 @@
+{
+    "unicast" : "10.10.0.3",
+    "logging" : { "level" : "info", "console" : "true" },
+    "applications" : [ { "name" : "commonapi.demo.Client", "id" : "0x2222" } ],
+    "service_discovery" : {
+        "enable" : "true",
+        "multicast" : "224.224.224.245",
+        "port" : "30490",
+        "protocol" : "udp",
+        "initial_delay_min" : "10",
+        "initial_delay_max" : "100"
+    }
+}

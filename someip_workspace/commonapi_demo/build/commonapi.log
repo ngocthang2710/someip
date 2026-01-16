@@ -1,0 +1,65 @@
+[CAPI][INFO] Loading configuration file '../commonapi.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][INFO] Registering function for creating "commonapi.demo.DemoService:v1_0" stub adapter.
+[CAPI][INFO] Registering stub for "local:commonapi.demo.DemoService:v1_0:commonapi.demo.DemoService:commonapi.demo.DemoService"
+[CAPI][ERROR] Attempted to set invalid CommonAPI address: local:commonapi.demo.DemoService:v1_0:commonapi.demo.DemoService:commonapi.demo.DemoService
+[CAPI][ERROR] Cannot determine SOME/IP address data for CommonAPI address "::"
+[CAPI][ERROR] Cannot determine CommonAPI address data for SOME/IP address "[0000.0000(ff.ffffffff)]"
+[CAPI][ERROR] Cannot determine CommonAPI address data for SOME/IP address "[0000.0000(ff.ffffffff)]"
+[CAPI][INFO] Deregistering stub for "::"
+[CAPI][INFO] Deregistering stub for "::" failed (Not registered).
+[CAPI][ERROR] Registering stub for "local:commonapi.demo.DemoService:v1_0:commonapi.demo.DemoService:commonapi.demo.DemoService" failed!
+[CAPI][INFO] Loading configuration file '../commonapi.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][INFO] Registering function for creating "commonapi.demo.DemoService:v1_0" stub adapter.
+[CAPI][ERROR] Attempted to set invalid CommonAPI address: local:commonapi.demo.DemoService:v1_0:commonapi.demo.DemoService:commonapi.demo.DemoService
+[CAPI][ERROR] Cannot determine SOME/IP address data for CommonAPI address "::"
+[CAPI][ERROR] Creating proxy for "local:commonapi.demo.DemoService:v1_0:commonapi.demo.DemoService:commonapi.demo.DemoService" failed!
+[CAPI][INFO] Loading configuration file '../commonapi.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][INFO] Registering function for creating "commonapi.demo.DemoService:v1_0" stub adapter.
+[CAPI][INFO] Registering stub for "local:commonapi.demo.DemoService:v1_0:commonapi.demo.DemoService:commonapi.demo.DemoService"
+[CAPI][ERROR] Attempted to set invalid CommonAPI address: local:commonapi.demo.DemoService:v1_0:commonapi.demo.DemoService:commonapi.demo.DemoService
+[CAPI][ERROR] Cannot determine SOME/IP address data for CommonAPI address "::"
+[CAPI][ERROR] Cannot determine CommonAPI address data for SOME/IP address "[0000.0000(ff.ffffffff)]"
+[CAPI][ERROR] Cannot determine CommonAPI address data for SOME/IP address "[0000.0000(ff.ffffffff)]"
+[CAPI][INFO] Deregistering stub for "::"
+[CAPI][INFO] Deregistering stub for "::" failed (Not registered).
+[CAPI][ERROR] Registering stub for "local:commonapi.demo.DemoService:v1_0:commonapi.demo.DemoService:commonapi.demo.DemoService" failed!
+[CAPI][INFO] Loading configuration file '../commonapi.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][INFO] Registering function for creating "commonapi.demo.DemoService:v1_0" stub adapter.
+[CAPI][ERROR] Attempted to set invalid CommonAPI address: local:commonapi.demo.DemoService:v1_0:commonapi.demo.DemoService:commonapi.demo.DemoService
+[CAPI][ERROR] Cannot determine SOME/IP address data for CommonAPI address "::"
+[CAPI][ERROR] Creating proxy for "local:commonapi.demo.DemoService:v1_0:commonapi.demo.DemoService:commonapi.demo.DemoService" failed!
+[CAPI][INFO] Loading configuration file '../commonapi.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][INFO] Registering function for creating "commonapi.demo.DemoService:v1_0" stub adapter.
+[CAPI][INFO] Registering stub for "local:commonapi.demo.DemoService:v1_0:commonapi.demo.DemoService"
+[CAPI][INFO] Loading configuration file '../commonapi.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][INFO] Registering function for creating "commonapi.demo.DemoService:v1_0" stub adapter.
+[CAPI][INFO] Loading configuration file '../commonapi.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][INFO] Registering function for creating "commonapi.demo.DemoService:v1_0" stub adapter.
+[CAPI][INFO] Registering stub for "local:commonapi.demo.DemoService:v1_0:commonapi.demo.DemoService"
+[CAPI][INFO] Loading configuration file '../commonapi.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][INFO] Registering function for creating "commonapi.demo.DemoService:v1_0" stub adapter.
+[CAPI][INFO] Loading configuration file '../commonapi.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][INFO] Registering function for creating "commonapi.demo.DemoService:v1_0" stub adapter.
+[CAPI][INFO] Registering stub for "local:commonapi.demo.DemoService:v1_0:commonapi.demo.DemoService"
+[CAPI][INFO] Loading configuration file '../commonapi.ini'
+[CAPI][INFO] Using default binding 'someip'
+[CAPI][INFO] Using default shared library folder '/usr/local/lib/commonapi'
+[CAPI][INFO] Registering function for creating "commonapi.demo.DemoService:v1_0" stub adapter.

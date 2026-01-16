@@ -1,0 +1,23 @@
+package commonapi.demo
+
+interface DemoService {
+    version { major 1 minor 0 }
+
+    struct VehicleState {
+        UInt32 speed
+        Int8   gear
+        UInt8  fuelLevel
+    }
+
+    method add {
+        in {
+            UInt32 num1  // <--- XÓA DẤU PHẨY Ở ĐÂY
+            UInt32 num2
+        }
+        out {
+            UInt32 result
+        }
+    }
+
+    attribute VehicleState carStatus readonly
+}

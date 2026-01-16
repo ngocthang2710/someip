@@ -1,0 +1,26 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/thangnn/someip_workspace/commonapi_demo/src-gen/v1/commonapi/demo/DemoServiceSomeIPDeployment.cpp" "CMakeFiles/client.dir/src-gen/v1/commonapi/demo/DemoServiceSomeIPDeployment.cpp.o" "gcc" "CMakeFiles/client.dir/src-gen/v1/commonapi/demo/DemoServiceSomeIPDeployment.cpp.o.d"
+  "/home/thangnn/someip_workspace/commonapi_demo/src-gen/v1/commonapi/demo/DemoServiceSomeIPProxy.cpp" "CMakeFiles/client.dir/src-gen/v1/commonapi/demo/DemoServiceSomeIPProxy.cpp.o" "gcc" "CMakeFiles/client.dir/src-gen/v1/commonapi/demo/DemoServiceSomeIPProxy.cpp.o.d"
+  "/home/thangnn/someip_workspace/commonapi_demo/src-gen/v1/commonapi/demo/DemoServiceSomeIPStubAdapter.cpp" "CMakeFiles/client.dir/src-gen/v1/commonapi/demo/DemoServiceSomeIPStubAdapter.cpp.o" "gcc" "CMakeFiles/client.dir/src-gen/v1/commonapi/demo/DemoServiceSomeIPStubAdapter.cpp.o.d"
+  "/home/thangnn/someip_workspace/commonapi_demo/src/Client.cpp" "CMakeFiles/client.dir/src/Client.cpp.o" "gcc" "CMakeFiles/client.dir/src/Client.cpp.o.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

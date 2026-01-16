@@ -1,0 +1,39 @@
+services:
+  service-node:
+    image: ubuntu:24.04
+    container_name: someip-service
+    hostname: service-node
+    command: tail -f /dev/null
+    volumes:
+      - .:/app
+      - /usr/local/lib:/usr/local/lib
+    environment:
+      - LD_LIBRARY_PATH=/usr/local/lib
+    cap_add:
+          - NET_ADMIN
+    networks:
+      someip-net:
+        ipv4_address: 10.10.0.2  # <--- IP mới cho Service
+
+  client-node:
+    image: ubuntu:24.04
+    container_name: someip-client
+    hostname: client-node
+    command: tail -f /dev/null
+    volumes:
+      - .:/app
+      - /usr/local/lib:/usr/local/lib
+    environment:
+      - LD_LIBRARY_PATH=/usr/local/lib
+    cap_add:
+      - NET_ADMIN
+    networks:
+      someip-net:
+        ipv4_address: 10.10.0.3  # <--- IP mới cho Client
+
+networks:
+  someip-net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.10.0.0/16   # <--- Subnet mới

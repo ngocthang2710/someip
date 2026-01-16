@@ -1,0 +1,15 @@
+{
+    "unicast" : "127.0.0.1",
+    "logging" :
+    { 
+        "level" : "info",
+        "console" : "true"
+    },
+    "applications" : 
+    [
+        {
+            "name" : "client-sample",
+            "id" : "0x2222"
+        }
+    ]
+}

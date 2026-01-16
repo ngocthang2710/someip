@@ -1,0 +1,22 @@
+import "platform:/plugin/org.genivi.commonapi.someip/deployment/CommonAPI-SOMEIP_deployment_spec.fdepl"
+import "Demo.fidl"
+
+define org.genivi.commonapi.someip.deployment for interface commonapi.demo.DemoService {
+    SomeIpServiceID = 0x1234
+
+    method add { SomeIpMethodID = 0x0001 }
+
+    // Cập nhật tên attribute mới
+    attribute carStatus {
+        SomeIpGetterID = 0x3000
+        SomeIpNotifierID = 0x8001
+        SomeIpEventGroups = { 0x4465 }
+    }
+}
+
+define org.genivi.commonapi.someip.deployment for provider as MyService {
+    instance commonapi.demo.DemoService {
+        InstanceId = "commonapi.demo.DemoService"
+        SomeIpInstanceID = 0x5678
+    }
+}

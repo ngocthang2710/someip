@@ -1,0 +1,4 @@
+/home/thangnn/someip_workspace/commonapi_demo/build/CMakeFiles/service.dir
+/home/thangnn/someip_workspace/commonapi_demo/build/CMakeFiles/client.dir
+/home/thangnn/someip_workspace/commonapi_demo/build/CMakeFiles/edit_cache.dir
+/home/thangnn/someip_workspace/commonapi_demo/build/CMakeFiles/rebuild_cache.dir

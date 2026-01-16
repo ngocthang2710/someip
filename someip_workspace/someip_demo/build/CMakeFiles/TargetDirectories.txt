@@ -1,0 +1,4 @@
+/home/thangnn/someip_workspace/someip_demo/build/CMakeFiles/service_sample.dir
+/home/thangnn/someip_workspace/someip_demo/build/CMakeFiles/client_sample.dir
+/home/thangnn/someip_workspace/someip_demo/build/CMakeFiles/edit_cache.dir
+/home/thangnn/someip_workspace/someip_demo/build/CMakeFiles/rebuild_cache.dir
